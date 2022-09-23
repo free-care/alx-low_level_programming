@@ -2,7 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-
+/**
+* main - print last digit
+*
+* Return: Always (Success)
+*/
 /* betty style doc for function main goes there */
 int main(void)
 {
