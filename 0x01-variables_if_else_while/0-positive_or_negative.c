@@ -4,7 +4,7 @@
 /* more headers goes there */
 /**
  * main - Casestudy of a randomly assigned number
- * 
+ *
  * Return: Always (Success)
  */
 /* betty style doc for function main goes there */
