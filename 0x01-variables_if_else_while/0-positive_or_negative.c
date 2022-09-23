@@ -2,7 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
+/**
+ * main - Casestudy of a number
+ * @n: Check for n
 
+ * Return: Always return 0
+ */
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -23,5 +28,5 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	return (0);
+	return 0;
 }
