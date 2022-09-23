@@ -4,8 +4,8 @@
 /* more headers goes there */
 /**
  * main - Casestudy of a randomly assigned number
- * @n: Check for n
- * Return: Always return 0
+ * 
+ * Return: Always (Success)
  */
 /* betty style doc for function main goes there */
 int main(void)
