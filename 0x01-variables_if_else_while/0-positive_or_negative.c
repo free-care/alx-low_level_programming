@@ -3,9 +3,8 @@
 #include <time.h>
 /* more headers goes there */
 /**
- * main - Casestudy of a number
+ * main - Casestudy of a randomly assigned number
  * @n: Check for n
-
  * Return: Always return 0
  */
 /* betty style doc for function main goes there */
