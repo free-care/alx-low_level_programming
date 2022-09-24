@@ -24,7 +24,7 @@ putchar(i);
 putchar(j);
 if (n != '7' || i != '8' || j != '9')
 {
- putchar(',');
+putchar(',');
 putchar(' ');
 }
 }
