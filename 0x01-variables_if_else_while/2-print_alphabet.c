@@ -9,7 +9,8 @@
 
 int main(void)
 {
-    char c;
-    putchar("%c\n", tolower(c));
-    return (0);
+        char c;
+        
+        putchar("%c\n", tolower(c));
+        return (0);
 }
