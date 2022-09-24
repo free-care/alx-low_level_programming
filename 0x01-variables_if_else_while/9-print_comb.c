@@ -1,24 +1,7 @@
 #include <stdio.h>
 
 /**
-*  main - print digit nos of base 10
-*
-*  Return: Always (Success)
-*/
-
-#include <stdio.h>
-#include <ctype.h>
-
-/**
-*  main - putchar tolower case alphabet
-*
-*  Return: Always (Success)
-*/
-
-#include <stdio.h>
-
-/**
-*  main - print digit nos of base 16
+*  main - print digit nos of base 10 separated with comma
 *
 *  Return: Always (Success)
 */
