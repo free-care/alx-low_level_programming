@@ -9,11 +9,11 @@
 
 int main(void)
 {
-        char c;
-        
-        for (c = 'A', c <= 'Z', c++)
-        {
-          putchar('%c\n', tolower(c));
-        }
-        return (0);
+char c;
+
+for (c = 'A', c <= 'Z', c++)
+{
+        putchar('%c\n', tolower(c));
+}
+return (0);
 }
