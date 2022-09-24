@@ -9,10 +9,13 @@
 int main(void)
 {
 int i;
+char c = '0';
 
-for (i = 0; i % 10; i++)
+printf("%c", c);
+for (i = 1; i % 10; i++)
 {
-printf("%d\n", i);
+printf("%d", i);
 }
+printf("\n");
 return (0);
 }
