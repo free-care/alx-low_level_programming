@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-*  main - print digit nos of base 16
+*  main - print all possible diff combinations of two digits
 *
 *  Return: Always (Success)
 */
