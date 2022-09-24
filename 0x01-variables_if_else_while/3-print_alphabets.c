@@ -9,7 +9,7 @@
 
 int main(void)
 {
-char c;
+char c,e;
 
 c = 'A';
 while (c <= 'Z')
@@ -17,10 +17,11 @@ while (c <= 'Z')
 putchar(tolower(c));
 c++;
 }
-while (c <= 'Z')
+e = 'A';
+while (e <= 'Z')
 {
-putchar(c);
-c++;
+putchar(e);
+e++;
 }
 
 putchar('\n');
