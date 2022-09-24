@@ -11,8 +11,17 @@ int main(void)
 {
 char c;
 
-for (c = 'A'; c <= 'Z'; c++)
-putchar(tolower(c) toupper(c));
+c = 'A';
+while (c <= 'Z')
+{
+putchar(tolower(c));
+c++;
+}
+while (c <= 'Z')
+{
+putchar(c);
+c++;
+}
 
 putchar('\n');
 return (0);
