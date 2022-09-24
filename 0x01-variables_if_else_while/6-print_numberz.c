@@ -8,13 +8,11 @@
 
 int main(void)
 {
-char c;
+int c;
 
-c = '0';
-while (c % '10')
+for (c = 0; c < 10; c = c + 1)
 {
 putchar(c);
-c++;
 }
 putchar('\n');
 return (0);
