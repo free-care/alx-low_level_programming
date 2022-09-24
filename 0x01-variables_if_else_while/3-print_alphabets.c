@@ -12,7 +12,7 @@ int main(void)
 char c;
 
 for (c = 'A'; c <= 'Z'; c++)
-putchar(tolower(c), toupper(c));
+putchar(tolower(c) toupper(c));
 
 putchar('\n');
 return (0);
