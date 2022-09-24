@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
 *  main - print digit nos of base 10
@@ -11,7 +10,7 @@ int main(void)
 {
 int i;
 
-if (i = 0; i % 10; i++)
+for (i = 0; i % 10; i++)
 {
 printf("%d\n", i);
 }
