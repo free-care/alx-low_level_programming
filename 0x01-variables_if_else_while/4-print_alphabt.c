@@ -9,25 +9,14 @@
 
 int main(void)
 {
-char c, d, e;
+char c;
 
 c = 'A';
-while (c < 'E')
+while (c < 'Z')
 {
+if (c != 'E' && c != 'Q')
 putchar(tolower(c));
 c++;
-}
-d = 'F';
-while (d < 'Q')
-{
-putchar(tolower(d));
-d++;
-}
-e = 'R';
-while (e <= 'Z')
-{
-putchar(tolower(e));
-e++;
 }
 
 putchar('\n');
