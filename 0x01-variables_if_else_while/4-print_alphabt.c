@@ -12,7 +12,7 @@ int main(void)
 char c;
 
 c = 'A';
-while (c < 'Z')
+while (c <= 'Z')
 {
 if (c != 'E' && c != 'Q')
 putchar(tolower(c));
