@@ -1,35 +1,43 @@
 #include <stdio.h>
 
 /**
-*  main - print digit nos of base 16
-*
-*  Return: Always (Success)
-*/
-
+ * main - prints all possible combinations of two two-digit numbers
+ *
+ * Return: Always (Success)
+ */
 int main(void)
 {
-    int n, i, j, k;
+		int c, i, k, j;
 
-    for (n = '0'; n <= '9'; n++)
-    {
-        for (i = '0'; i <= '8'; i++)
-        {
-             for (j = '0'; j <= '9'; j++)
-             {
-                 for (k = '0'; k <= '9'; k++)
-                 {
-                     if ((n == i || n > i) < (j < k || j >= k))
-                     {
-                         putchar(n);
-                         putchar(i);
-                         putchar(' ');
-                         putchar(j);
-                         putchar(k);
-                     }
-                 }
-             }
-        }
-    }
-    putchar('\n');
-    return (0);
+		for (c = 48; c <= 57; c++)
+		{
+			for (i = 48; i <= 57; i++)
+			{
+				for (k = 48; k <= 57; k++)
+				{
+					for (j = 48; j <= 57; j++)
+					{
+						if (((k + j) > (c + i) &&  k >= c) || c < k)
+						{
+							putchar(c);
+							putchar(i);
+							putchar(' ');
+							putchar(k);
+							putchar(j);
+						if (c + i + k + j == 227 && c == 57)
+						{
+						break;
+						}
+						else
+						{
+						putchar(',');
+						putchar(' ');
+						}
+						}
+					}
+				}
+			}
+		}
+		putchar('\n');
+		return (0);
 }
