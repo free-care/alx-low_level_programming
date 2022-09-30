@@ -6,11 +6,13 @@
  * Return: Always (Success)
  */
 
-void main(int i)
+void main(int i);
+
+int main()
 {
 for (i = 'a'; i <= 'z'; i++)
 {
-putchar(i);
+_putchar(i);
 }
-putchar('\n');
+_putchar('\n');
 }
