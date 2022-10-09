@@ -1,10 +1,4 @@
-#include <main.h>
-
-/**
-* main - prints _putchar
-*
-* Return: Always (Success)
-*/
+#include <stdio.h>
 
 int main(void)
 {
